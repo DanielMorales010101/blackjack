@@ -5,10 +5,51 @@
         <meta name="viewport" content="width=divice-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie-edge">
         <title>Blackjack</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
         <link rel="stylesheet" href="assets/css/styles.css">
     </head>
     <body>
+
+        <header class="titulo">
+            Blackjack 
+        </header>
+
+        <div class="row mt-2">
+            <div class="col text-center">
+                <button class="btn btn btn-danger">Nuevo Juego</button>
+                <button class="btn btn btn-primary">Pedir Carta</button>
+                <button class="btn btn btn-primary">Detener</button>
+            </div>
+       
+        </div>
+
+        <div class="row container">
+            <div class="col">
+                <h1>Jugador 1 - <smoll>0</smoll></h1>
+
+                <div id="jugador-cartas">
+                    <!--<img class="carta" src="assets/cartas/2C.png"-->
+                    <!--<img class="carta" src="assets/cartas/2C.png"-->
+                    <!--<img class="carta" src="assets/cartas/2C.png"-->
+                    <!--<img class="carta" src="assets/cartas/2C.png"-->
+                </div>
+            </div>
+        </div>
+
+        <div class="row container mt-3">
+            <div class="col">
+                <h1>Computadora - <smoll>0</smoll></h1>
+
+                <div id="omputadora-cartas">
+                    <!--<img class="carta" src="assets/cartas/3C.png">-->
+                    <!--<img class="carta" src="assets/cartas/3C.png">-->
+                    <!--<img class="carta" src="assets/cartas/3C.png">-->
+                    <!--<img class="carta" src="assets/cartas/3C.png">-->
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
         <script src="assets/js/juego.js"></script>
 
