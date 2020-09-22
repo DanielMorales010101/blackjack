@@ -38,7 +38,7 @@ crearDeck();
 
 const pedirCarta = ()=>{
     if(deck.length===0){
-        throw'No hay mas cartas en el deck';
+        throw'No hay mas cartas';
     }
     let carta = deck.pop(); 
 
